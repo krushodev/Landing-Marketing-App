@@ -1,0 +1,39 @@
+.description-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.description-card {
+    max-width: 15rem;
+}
+
+.description-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description-card h5 {
+    font-size: 1.3em;
+    margin-bottom: -5px;
+}
+
+.description-card h5,
+.description-card p {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .description-content {
+        flex-direction: row;
+        gap: 6em;
+    }
+
+    .description-card h5 {
+        font-size: 1.5em;
+    }
+}

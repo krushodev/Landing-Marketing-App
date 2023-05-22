@@ -22,7 +22,7 @@
     margin-bottom: 40px;
 }
 
-button {
+.header-content button {
     border: none;
     background-color: black;
     color: white;
@@ -31,7 +31,7 @@ button {
     font-size: 0.9em;
 }
 
-img {
+.header-container img {
     width: 100%;
     background-color: blue;
 }

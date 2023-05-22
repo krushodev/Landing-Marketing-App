@@ -1,16 +1,19 @@
 .section {
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     background-color: red;
+    margin: 30px 0;
+    padding: 10px;
 }
 
 .section p {
     font-size: 1em;
     color: rgb(50, 68, 68);
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .section h3 {
     margin-top: -7px;
-    font-size: 2em;
+    font-size: 1.4em;
 }
