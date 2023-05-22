@@ -1,0 +1,16 @@
+.section {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+}
+
+.section p {
+    font-size: 1em;
+    color: rgb(50, 68, 68);
+    font-weight: bold;
+}
+
+.section h3 {
+    margin-top: -7px;
+    font-size: 2em;
+}
