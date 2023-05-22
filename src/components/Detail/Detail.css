@@ -1,0 +1,33 @@
+.detail-container {
+    padding: 0 10px;
+}
+
+.detail-card h5 {
+    font-size: 1.7em;
+}
+
+.detail-card p {
+    margin-top: -25px;
+}
+
+.detail-card ul {
+    list-style-type: square;
+    padding-inline-start: 1.3em;
+    
+}
+
+.detail-card ul li {
+    color: red;
+    margin-bottom: 18px;
+}
+
+.detail-card ul li span{
+    color: black;
+}
+
+.detail-container img {
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+    max-width: 30rem;
+}
