@@ -1,0 +1,55 @@
+.header-container {
+    background-color: #8e4dcb;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 50px;
+}
+
+.header-content {
+    padding: 10px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 2em;
+}
+
+.header-content p {
+    font-size: 1.1em;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-size: 0.9em;
+}
+
+img {
+    width: 100%;
+    background-color: blue;
+}
+
+@media screen and (min-width: 1000px) {
+    .header-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-content {
+        text-align: left;
+    }
+
+    .header-content h2 {
+        font-size: 3.4em;
+    }
+
+    .header-content p {
+        font-size: 1.3em;
+    }
+}
