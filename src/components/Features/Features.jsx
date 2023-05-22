@@ -8,6 +8,7 @@ import Feat3 from "../../assets/features/features-3.png"
 
 const Features = () => {
   const [content, setContent] = useState(null);
+  const [active, setActive] = useState("listBuilder");
 
   const data = [
     {
@@ -37,8 +38,8 @@ const Features = () => {
     ,
   ];
 
-  const handleClick = (e) => {
-    const id = e.target.id;
+  const handleClick = (id) => {
+    setActive(id);
     const newContent = data.find((item) => id === item.id);
     setContent(newContent);
   };
@@ -49,7 +50,7 @@ const Features = () => {
       <p>Take your business strategy to the next level and automatize your marketing tasks to save time for product development. Tivo can provide results in less than 2 weeks</p>
       <div className="features-content">
         <ul>
-          {data.map(item => <li onClick={handleClick}><span id={item.id}>{item.name}</span></li>)}
+          {data.map(item => <li onClick={() => handleClick(item.id)} className={active === item.id && "active"}><span>{item.name}</span></li>)}
         </ul>
         <FeaturesCard content={content ? content : data[0]} />
       </div>

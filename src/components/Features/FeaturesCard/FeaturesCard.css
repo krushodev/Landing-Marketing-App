@@ -1,0 +1,30 @@
+.features-card img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    max-width: 30rem;
+}
+
+.features-card-content {
+    padding: 0 10px;
+}
+
+.features-card-content h5 {
+    font-size: 1.6em;
+    margin-bottom: -5px;
+}
+
+.features-card-content ul {
+    list-style-type: square;
+    padding-inline-start: 1.3em;
+    
+}
+
+.features-card-content ul li {
+    color: red;
+    margin-bottom: 18px;
+}
+
+.features-card-content ul li span{
+    color: black;
+}
