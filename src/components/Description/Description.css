@@ -14,7 +14,6 @@
 
 .description-card img {
     max-width: 100%;
-    height: auto;
 }
 
 .description-card h5 {
@@ -27,10 +26,20 @@
     text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     .description-content {
         flex-direction: row;
         gap: 6em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .description-content {
+        gap: 10em;
+    }
+
+    .description-card {
+        max-width: 17rem;
     }
 
     .description-card h5 {
