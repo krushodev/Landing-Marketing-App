@@ -1,9 +1,10 @@
 nav {
     max-width: 100%;
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    right: 0; */
-    background-color: red;
+    right: 0;
+    background-color: #cba1f2;
+    padding: 0 50px;
 }
 
 .nav-container {
@@ -11,7 +12,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 35px;
-    padding: 0 50px;
 }
 
 .nav-links {
@@ -37,7 +37,7 @@ nav {
     font-weight: bold;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
     .nav-links {
         display: flex;
     }
