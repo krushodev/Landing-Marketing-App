@@ -8,7 +8,7 @@ const FeaturesCard = ({content}) => {
             <h5>{content.title}</h5>
             <p>{content.desc}</p>
             <ul>
-                {content.feat.map(item => <li><span>{item}</span></li>)}
+                {content.feat.map((item, index) => <li key={index}><span>{item}</span></li>)}
             </ul>
             <button className="btn">LightBox</button>
         </div>
