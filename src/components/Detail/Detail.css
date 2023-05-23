@@ -1,13 +1,20 @@
 .detail-container {
-    padding: 0 10px;
+    padding: 40px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.detail-card {
+    max-width: 33rem;
 }
 
 .detail-card h5 {
     font-size: 1.7em;
-}
-
-.detail-card p {
-    margin-top: -25px;
+    margin: 5px 0 -5px;
 }
 
 .detail-card ul {
@@ -30,4 +37,11 @@
     display: block;
     margin: 30px auto;
     max-width: 30rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .detail-container {
+        flex-direction: row;
+        gap: 2em;
+    }
 }
