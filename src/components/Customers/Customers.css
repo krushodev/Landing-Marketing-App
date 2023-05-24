@@ -1,0 +1,12 @@
+.customers-carousel {
+    padding: 30px;
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.customers-carousel img {
+    display: block;
+    margin: 0 auto;
+}
+

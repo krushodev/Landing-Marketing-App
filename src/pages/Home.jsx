@@ -6,18 +6,20 @@ import Form from "../components/Form/Form";
 import Navbar from "../components/Navbar/Navbar";
 import Pricing from "../components/Pricing/Pricing";
 import Header from "../components/Header/Header";
-import Testimonials from "../components/Testimonials/Testimonials"
+import Testimonials from "../components/Testimonials/Testimonials";
+import Customers from "../components/Customers/Customers";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Header />
+      <Customers />
       <Description />
       <Features />
       <Detail />
       <Pricing />
-      <Testimonials/>
+      <Testimonials />
       <Form />
       <Footer />
     </>
