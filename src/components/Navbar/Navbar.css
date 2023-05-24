@@ -5,6 +5,7 @@ nav {
     right: 0;
     background-color: #cba1f2;
     padding: 0 50px;
+    z-index: 2;
 }
 
 .nav-container {
