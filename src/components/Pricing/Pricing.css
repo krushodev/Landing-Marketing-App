@@ -1,3 +1,7 @@
+.pricing-container {
+    padding: 0 0 70px;
+}
+
 .pricing-cards {
     display: flex;
     justify-content: center;
