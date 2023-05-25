@@ -1,4 +1,5 @@
 import "./PricingCard.css";
+import { FaCheck, FaTimes } from "react-icons/fa";
 
 const PricingCard = ({ content }) => {
   return (
@@ -11,7 +12,12 @@ const PricingCard = ({ content }) => {
       <span className="pricing-card-use">{content.use}</span>
       <hr></hr>
       <div className="pricing-feat-container">
-        {content.features.map((item, index) => <p key={index}><span>{item.status ? "<" : "x"}</span>{item.desc}</p>)}
+        {content.features.map((item, index) => (
+          <p key={index}>
+            <span className={`${item.status && "active"}`}>{item.status ? <FaCheck/> : <FaTimes/> }</span>
+            {item.desc}
+          </p>
+        ))}
       </div>
       <button className="btn">Sign Up</button>
     </div>

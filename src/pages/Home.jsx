@@ -8,6 +8,7 @@ import Pricing from "../components/Pricing/Pricing";
 import Header from "../components/Header/Header";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Customers from "../components/Customers/Customers";
+import Social from "../components/Social/Social";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Pricing />
       <Testimonials />
       <Form />
+      <Social/>
       <Footer />
     </>
   );

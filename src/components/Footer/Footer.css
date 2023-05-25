@@ -34,12 +34,18 @@ footer {
     padding-inline-start: 1.3em;
 }
 
-.footer-info-content:nth-child(2) ul {
+ .important-links {
     list-style-type: square;
 }
 
 .footer-info-contentul li {
     margin-bottom: 5px;
+}
+
+.contact li span {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
 }
 
 footer hr {

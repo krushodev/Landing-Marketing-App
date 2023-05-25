@@ -52,6 +52,16 @@
     line-height: 1;
 }
 
+.pricing-feat-container p span{
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.pricing-feat-container p .active {
+    color: #cba1f2;
+}
+
 .pricing-card button {
     display: block;
     margin: 0 auto;

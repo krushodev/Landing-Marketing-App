@@ -27,6 +27,13 @@
     cursor: pointer;
 }
 
+
+.features-content > ul li p span:first-child {
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
 .active {
     color: red;
 }

@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { FaMapMarkerAlt, FaGlobe, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
           <div className="footer-info-item">
             <h6>Important Links</h6>
             <div className="footer-info-content">
-              <ul>
+              <ul className="important-links">
                 <li>
                   Our business partner <a href="#">startupguide.com</a>
                 </li>
@@ -34,10 +35,10 @@ const Footer = () => {
           <div className="footer-info-item">
             <h6>Contact</h6>
             <div className="footer-info-content">
-              <ul>
-                <li>22 Innovative, San Francisco, CA 94043, US</li>
+              <ul className="contact">
+                <li><span><FaMapMarkerAlt/></span>22 Innovative, San Francisco, CA 94043, US</li>
                 <li>
-                  <a href="#">contact@tivo.com</a>, <a href="#">www.tivo.com</a>
+                  <a href="#"><span><FaEnvelope/></span>contact@tivo.com</a>, <a href="#"><span><FaGlobe/></span>www.tivo.com</a>
                 </li>
               </ul>
             </div>
