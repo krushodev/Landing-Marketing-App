@@ -2,6 +2,11 @@ footer {
     background-color: #cba1f2;
     height: 100%;
     width: 100%;
+    padding: 0 20px;
+}
+
+.footer-wave {
+    margin-bottom: -1em;
 }
 
 .footer-info-container {
@@ -45,15 +50,21 @@ footer hr {
 
 footer > p {
     text-align: center;
+    margin-bottom: 0;
+    padding: 15px;
 }
 
 @media screen and (min-width: 768px) {
+    footer {
+        padding: 1em 5em;
+    }
+
     .footer-info-container {
         flex-direction: row;
     }
 
-    footer {
-        padding: 1em 5em;
+    .footer-wave {
+        margin-bottom: -4em;
     }
 }
 
@@ -64,5 +75,9 @@ footer > p {
 
     footer {
         padding: 2em 15em;
+    }
+
+    .footer-wave {
+        margin-bottom: -7em;
     }
 }
