@@ -25,11 +25,15 @@
 
 .detail-card ul li {
     color: red;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
-.detail-card ul li span{
+.detail-card ul li span {
     color: black;
+}
+
+.detail-card button {
+    margin-top: 12px;
 }
 
 .detail-container img {

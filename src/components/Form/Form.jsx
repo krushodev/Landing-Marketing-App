@@ -3,7 +3,7 @@ import TitleSection from "../TitleSection/TitleSection";
 
 const Form = () => {
   return (
-    <div className="newsletter-container">
+    <div className="newsletter-container container">
         <TitleSection title="Stay Updated With The Latest News To Get More Qualified Leads" section="Newsletter" />
         <form>
             <div className="input-email-container">

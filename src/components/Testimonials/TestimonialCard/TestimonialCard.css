@@ -33,6 +33,7 @@
 @media screen and (min-width: 1024px) {
     .testimonial-card {
         flex-direction: row;
+        padding: 0 3em;
     }
 
     .testimonial-card-content {

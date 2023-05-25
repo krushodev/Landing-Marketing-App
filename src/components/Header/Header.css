@@ -53,11 +53,14 @@
     }
 }
 
-
-
 @media screen and (min-width: 1366px) {
     .header-container {
         flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    .header-wave {
+        margin-bottom: -3em;
     }
 
     .header-content {
@@ -71,8 +74,4 @@
     .header-content p {
         font-size: 1.3em;
     }
-
-   /*  .header-container img {
-        width: 50%;
-    } */
 }

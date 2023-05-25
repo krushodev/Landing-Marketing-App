@@ -23,7 +23,7 @@ const data = [{
 
 const Description = () => {
   return (
-    <div className="description-container">
+    <div className="description-container container">
         <TitleSection title="Marketing Automation Will Bring More Qualified Leads" section="Description"/>
         <div className="description-content">
             {data.map(item => {

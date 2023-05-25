@@ -30,13 +30,13 @@ const Testimonials = () => {
   const splideOptions = {
     type: "loop",
     perPage: 1,
-    pagination: true,
+    pagination: false,
     arrows: true
   }
 
 
   return (
-    <div className="testimonials-container">
+    <div className="testimonials-container container">
       <Splide options={splideOptions} className="testimonials-carousel">
         {data.map((item, index) => (
           <SplideSlide key={index}>

@@ -43,7 +43,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="pricing-container">
+    <div className="pricing-container container">
       <TitleSection title="Pricing Options Table" section="Pricing" />
       <div className="pricing-cards">
         {data.map((item, index) => (

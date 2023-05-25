@@ -3,7 +3,7 @@ import ImgDetail from "../../assets/detail/details.png"
 
 const Detail = () => {
   return (
-    <div className="detail-container">
+    <div className="detail-container container">
         <div className="detail-card">
             <h5>Now Is The Time To Upgrade Your Marketing Solution</h5>
             <p>Target the right customers for your business with the help of Tivo's patented segmentation technology and deploy efficient marketing campaigns. Keep your customers happy and loyal.</p>
