@@ -1,8 +1,20 @@
 import "./Navbar.css";
+import MobileMenu from "./MobileMenu/MobileMenu";
+import Hamburger from 'hamburger-react';
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+    const body = document.body;
+    body.style.overflowY = (!isOpen) ? "hidden" : "scroll";
+  }
+
   return (
-    <nav>
+    <>
+      <nav>
         <div className="nav-container">
             <h1>Logo</h1>
             <div className="nav-links">
@@ -14,8 +26,13 @@ const Navbar = () => {
                 </ul>
                 <a className="nav-login">Log In</a>
             </div>
+            <Hamburger toggled={isOpen} toggle={handleToggle} />
         </div>
-    </nav>
+      </nav>
+      {
+        isOpen && <MobileMenu/>
+      }
+    </>
   )
 }
 

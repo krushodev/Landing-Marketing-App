@@ -4,7 +4,7 @@ nav {
     top: 0;
     right: 0;
     background-color: #cba1f2;
-    padding: 0 50px;
+    padding: 0 45px;
     z-index: 2;
 }
 
@@ -12,7 +12,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 35px;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
 .nav-links {
@@ -21,25 +23,43 @@ nav {
     justify-content: flex-end;
     gap: 20px;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .nav-items {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 25px;
     font-weight: bold;
 }
 
+.nav-items li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .nav-login {
-    margin-left: 30px;
-    border: 1px solid black;
-    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px 25px;
     font-weight: bold;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.nav-container h1,
+.nav-login  {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
     .nav-links {
         display: flex;
+    }
+
+    .hamburger-react {
+        display: none;
     }
 }
