@@ -8,13 +8,19 @@
 }
 
 .social-item {
-    background-color: #cba1f2;
+    background-color: #415681;
     padding: 6px 10px 0px;
     font-size: 1.8em;;
     border-radius: 50%;
     font-size: 1.8em;
     color: white;
     cursor: pointer;
+    transition: all 0.25s;
+}
+
+.social-item:hover {
+    background-color: white;
+    color: #415681;
 }
 
 @media screen and (min-width: 768px) {

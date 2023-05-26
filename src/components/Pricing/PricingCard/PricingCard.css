@@ -9,7 +9,7 @@
 .pricing-card-plan {
     margin-bottom: -10px;
     text-transform: uppercase;
-    color: red;
+    color: #d8679e;
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .pricing-feat-container p .active {
-    color: #cba1f2;
+    color: #d8679e;
 }
 
 .pricing-card button {

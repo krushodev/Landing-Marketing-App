@@ -8,7 +8,7 @@
   flex-direction: column;
   padding: 15px 0 50px;
   margin-bottom: 10em;
-  background-color: #fbefef;
+  background-color: #d8679e0b;
 }
 
 .newsletter-container form {
@@ -49,6 +49,10 @@
 .conditions-container {
   padding: 20px 0;
   margin-bottom: 15px;
+}
+
+.conditions-container label a {
+  color: #d8679e;
 }
 
 .newsletter-container form button {

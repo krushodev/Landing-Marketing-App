@@ -1,5 +1,5 @@
 .features-container {
-    background-color: #efeff9;
+    background-color: #d8679e0b;
     padding: 3em 0 9em;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .active {
-    color: red;
+    color: #d8679e;
 }
 
 @media screen and (min-width: 1024px) {
@@ -54,6 +54,6 @@
     }
 
     .active {
-        border-bottom-color: red !important;
+        border-bottom-color: #d8679e !important;
     }
 }

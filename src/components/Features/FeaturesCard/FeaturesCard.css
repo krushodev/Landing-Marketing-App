@@ -32,12 +32,12 @@
 }
 
 .features-card-content ul li {
-    color: red;
+    color: #d8679e;
     margin-bottom: 10px;
 }
 
 .features-card-content ul li span{
-    color: black;
+    color: #415681;
 }
 
 .features-card-content button {

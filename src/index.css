@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   box-sizing: border-box;
+  color: #415681;
 }
 
 ul {
@@ -16,7 +17,7 @@ ul {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 button {
@@ -32,11 +33,18 @@ button {
 
 .btn {
   border: none;
-  background-color: black;
+  background-color: #415681;
+  outline: 2px solid #415681;
   color: white;
   padding: 12px 35px;
   border-radius: 40px;
   font-size: 0.9em;
   font-weight: bold;
   text-transform: uppercase;
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #415681;
 }
