@@ -2,10 +2,13 @@
   padding: 30px;
   width: 100%;
   max-width: 70rem;
-  margin: 0 auto;
 }
 
 .customers-carousel img {
   display: block;
+}
+
+.customers-carousel,
+.customers-carousel img {
   margin: 0 auto;
 }

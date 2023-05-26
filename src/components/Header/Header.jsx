@@ -1,5 +1,5 @@
 import "./Header.css";
-import Img from "../../assets/header/header-app.png";
+import headerImg from "../../assets/header/header-app.png";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <button>Sign Up</button>
         </div>
-        <img src={Img} alt="heading" />
+        <img src={headerImg} alt="heading" />
       </div>
       <svg className="header-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path

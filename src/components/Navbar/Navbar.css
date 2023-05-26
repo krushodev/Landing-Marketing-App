@@ -4,7 +4,6 @@ nav {
   top: 0;
   right: 0;
   background-color: #415681;
-  color: white;
   padding: 0 45px;
   z-index: 2;
   -webkit-box-shadow: 3px 3px 10px 3px #06060638;
@@ -13,37 +12,44 @@ nav {
 }
 
 .nav-container {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
   max-width: 90rem;
   margin: 0 auto;
 }
 
 .nav-links {
   display: none;
-  align-items: center;
   justify-content: flex-end;
   gap: 20px;
-  width: 100%;
   font-size: 1em;
 }
 
 .nav-items {
-  display: flex;
-  align-items: center;
   gap: 25px;
-  font-weight: bold;
+}
+
+.nav-container,
+.nav-link {
+  width: 100%;
+}
+
+.nav-container,
+.nav-items {
+  display: flex;
+}
+
+.nav-container,
+.nav-link,
+.nav-items {
+  align-items: center;
 }
 
 .nav-items li a {
   text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.25s;
   color: #d3d2d2;
 }
 
+nav,
 .nav-items li a:hover {
   color: white;
 }
@@ -53,10 +59,18 @@ nav {
   outline: 2px solid white;
   border-radius: 40px;
   padding: 5px 25px;
-  font-weight: bold;
   background-color: transparent;
-  text-transform: uppercase;
   font-size: 0.9em;
+}
+
+.nav-items,
+.nav-login {
+  font-weight: bold;
+}
+
+.nav-items li a,
+.nav-login {
+  text-transform: uppercase;
   transition: all 0.25s;
 }
 

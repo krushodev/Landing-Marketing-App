@@ -7,18 +7,21 @@
   overflow: hidden;
   top: 75px;
   left: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .mobile-menu-links {
-  display: flex;
   flex-direction: column;
   padding: 20px;
   font-size: 1.4em;
   margin-top: -12em;
   gap: 20px;
+}
+
+.mobile-menu-container,
+.mobile-menu-links {
+  display: flex;
 }
 
 .mobile-menu-links a {

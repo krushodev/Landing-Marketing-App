@@ -7,9 +7,7 @@
 }
 
 .pricing-card-plan {
-  margin-bottom: -10px;
   text-transform: uppercase;
-  color: #d8679e;
   font-weight: bold;
 }
 
@@ -18,14 +16,7 @@
   color: #7b7b7b;
 }
 
-.pricing-card-plan,
-.pricing-card-use {
-  display: block;
-  text-align: center;
-}
-
 .pricing-card h6 {
-  text-align: center;
   font-size: 3.4em;
   display: flex;
   align-items: center;
@@ -33,8 +24,18 @@
   gap: 3px;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-bottom: -10px;
   color: #434c54;
+}
+
+.pricing-card-plan,
+.pricing-card-use,
+.pricing-card h6 {
+  text-align: center;
+}
+
+.pricing-card-plan,
+.pricing-card h6 {
+  margin-bottom: -10px;
 }
 
 .pricing-card h6 span {
@@ -58,12 +59,18 @@
   top: 2px;
 }
 
+.pricing-card-plan,
 .pricing-feat-container p .active {
   color: #d8679e;
 }
 
 .pricing-card button {
-  display: block;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.pricing-card-plan,
+.pricing-card-use,
+.pricing-card button {
+  display: block;
 }

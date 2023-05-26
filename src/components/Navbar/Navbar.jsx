@@ -1,7 +1,7 @@
 import "./Navbar.css";
+import { useState } from "react";
 import MobileMenu from "./MobileMenu/MobileMenu";
 import Hamburger from "hamburger-react";
-import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

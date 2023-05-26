@@ -18,13 +18,8 @@ ul {
   list-style-type: none;
 }
 
-a {
-  color: white;
-}
-
 button {
   cursor: pointer;
-  border: none;
 }
 
 .container {
@@ -34,10 +29,8 @@ button {
 }
 
 .btn {
-  border: none;
   background-color: #415681;
   outline: 2px solid #415681;
-  color: white;
   padding: 12px 35px;
   border-radius: 40px;
   font-size: 0.9em;
@@ -46,7 +39,21 @@ button {
   transition: all 0.25s;
 }
 
+button,
+.btn {
+  border: none;
+}
+
+a,
+.btn {
+  color: white;
+}
+
 .btn:hover {
   background-color: white;
+}
+
+body,
+.btn:hover {
   color: #415681;
 }

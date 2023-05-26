@@ -1,6 +1,4 @@
 .header-container {
-  background-color: #415681;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +10,6 @@
 .header-content {
   padding: 10px;
   text-align: center;
-  max-width: 30rem;
 }
 
 .header-content h2 {
@@ -41,6 +38,7 @@
   transition: all 0.25s;
 }
 
+.header-container,
 .header-content button:hover {
   background-color: #415681;
   color: white;
@@ -48,6 +46,10 @@
 
 .header-container img {
   width: 100%;
+}
+
+.header-content,
+.header-container img {
   max-width: 30rem;
 }
 
