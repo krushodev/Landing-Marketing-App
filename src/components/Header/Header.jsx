@@ -4,7 +4,7 @@ import headerImg from "../../assets/header/header-app.png";
 const Header = () => {
   return (
     <>
-      <div className="header-container">
+      <div className="header-container" id="home">
         <div className="header-content">
           <h2>This is the title of the page</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

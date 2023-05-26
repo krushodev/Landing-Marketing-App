@@ -49,7 +49,7 @@ const Features = () => {
   };
 
   return (
-    <div className="features-container container">
+    <div className="features-container container" id="features">
       <TitleSection title="Marketing Automation" section="Features" />
       <p>Take your business strategy to the next level and automatize your marketing tasks to save time for product development. Tivo can provide results in less than 2 weeks</p>
       <div className="features-content">
