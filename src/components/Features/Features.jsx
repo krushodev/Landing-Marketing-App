@@ -17,7 +17,7 @@ const Features = () => {
       name: "List Builder",
       img: Feat1,
       title: "List Building Is Easier Than Ever",
-      desc: "It's very easy to start using Tivo. You just need to fill out and submit the Sign Up Form and you will receive access to the app and all of its features in no more than 24h.",
+      desc: "It's very easy to start using this App. You just need to fill out and submit the Sign Up Form and you will receive access to the app and all of its features in no more than 24h.",
       feat: ["Create and embed on websites newsletter sign up forms", "Manage forms and landing pages for your services", "Add and remove subscribers using the control panel"],
       icon: FaListUl,
     },
@@ -26,7 +26,7 @@ const Features = () => {
       name: "Campaigns",
       img: Feat2,
       title: "Campaigns Monitoring Tools",
-      desc: "Campaigns monitoring is a feature we've developed since the beginning because it's at the core of Tivo and basically to any marketing activity focused on results.",
+      desc: "Campaigns monitoring is a feature we've developed since the beginning because it's at the core of this app and basically to any marketing activity focused on results.",
       feat: ["Easily plan campaigns and schedule their starting date", "Start campaigns and follow their evolution closely", "Evaluate campaign results and optimize future actions"],
       icon: FaEnvelopeOpenText,
     },
@@ -51,7 +51,7 @@ const Features = () => {
   return (
     <div className="features-container container" id="features">
       <TitleSection title="Marketing Automation" section="Features" />
-      <p>Take your business strategy to the next level and automatize your marketing tasks to save time for product development. Tivo can provide results in less than 2 weeks</p>
+      <p>Take your business strategy to the next level and automatize your marketing tasks to save time for product development. This app can provide results in less than 2 weeks</p>
       <div className="features-content">
         <ul>
           {data.map((item) => (

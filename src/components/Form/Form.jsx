@@ -15,7 +15,7 @@ const Form = () => {
         <div className="conditions-container">
           <input type="checkbox" id="termsConditions" />
           <label htmlFor="termsCoditions">
-            I've read and agree to Tivo's written <a href="#">Privacy Policy</a> and <a href="#">Terms Conditions</a>
+            I've read and agree to App's written <a href="#home">Privacy Policy</a> and <a href="#home">Terms Conditions</a>
           </label>
         </div>
         <button type="submit" className="btn">

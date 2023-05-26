@@ -9,19 +9,19 @@ const data = [
     id: 1,
     img: descImg1,
     title: "List Builder",
-    desc: "It's very easy to start creating email lists for your marketing actions. Just create your Tivo account",
+    desc: "It's very easy to start creating email lists for your marketing actions. Just create your account",
   },
   {
     id: 2,
     img: descImg2,
     title: "Campaign Tracker",
-    desc: "Campaigns is a feature we've developed since the beginning because it's at the core of Tivo's functionalities",
+    desc: "Campaigns is a feature we've developed since the beginning because it's at the core of App's functionalities",
   },
   {
     id: 3,
     img: descImg3,
     title: "Analytics Tool",
-    desc: "Tivo collects customer data in order to help you analyse different situations and take required action",
+    desc: "This app collects customer data in order to help you analyse different situations and take required action",
   },
 ];
 

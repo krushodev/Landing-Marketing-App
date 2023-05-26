@@ -14,7 +14,7 @@ const Footer = () => {
       <footer>
         <div className="footer-info-container">
           <div className="footer-info-item">
-            <h6>About Tivo</h6>
+            <h6>About</h6>
             <div className="footer-info-content">
               <p>We're passionate about designing and developing one of the best marketing apps in the market</p>
             </div>
@@ -24,10 +24,10 @@ const Footer = () => {
             <div className="footer-info-content">
               <ul className="important-links">
                 <li>
-                  Our business partner <a href="#">startupguide.com</a>
+                  Our business partner <a href="#home">startupguide.com</a>
                 </li>
                 <li>
-                  Read our <a href="#">Terms & Conditions</a>, <a href="#">Privacy Policy</a>
+                  Read our <a href="#home">Terms & Conditions</a>, <a href="#home">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -43,18 +43,18 @@ const Footer = () => {
                   22 Innovative, San Francisco, CA 94043, US
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#home">
                     <span>
                       <FaEnvelope />
                     </span>
-                    contact@tivo.com
+                    contact@mail.com
                   </a>
                   ,{" "}
-                  <a href="#">
+                  <a href="#home">
                     <span>
                       <FaGlobe />
                     </span>
-                    www.tivo.com
+                    www.app.com
                   </a>
                 </li>
               </ul>
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <p>Copyright © 2020 Template by Inovatik</p>
+        <p>Copyright © 2023</p>
       </footer>
     </>
   );
