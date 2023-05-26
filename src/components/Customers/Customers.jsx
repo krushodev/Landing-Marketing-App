@@ -18,19 +18,19 @@ const Customers = () => {
     perMove: 1,
     breakpoints: {
       1024: {
-        perPage: 4
+        perPage: 4,
       },
       900: {
-        perPage: 3
+        perPage: 3,
       },
       768: {
-        perPage: 2
+        perPage: 2,
       },
       500: {
-        perPage: 1
-      }
-    }
-  }
+        perPage: 1,
+      },
+    },
+  };
 
   return (
     <div className="customers-container">

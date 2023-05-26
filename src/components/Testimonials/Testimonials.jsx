@@ -31,9 +31,8 @@ const Testimonials = () => {
     type: "loop",
     perPage: 1,
     pagination: false,
-    arrows: true
-  }
-
+    arrows: true,
+  };
 
   return (
     <div className="testimonials-container container">

@@ -10,7 +10,7 @@ const MobileMenu = () => {
         <a href="">Princing</a>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default MobileMenu;

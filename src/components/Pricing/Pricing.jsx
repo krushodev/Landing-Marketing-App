@@ -14,7 +14,7 @@ const Pricing = () => {
         { desc: "List Building And Cleaning", status: false },
         { desc: "Collected Data Reports", status: false },
         { desc: "Planning And Evaluation", status: false },
-      ]
+      ],
     },
     {
       plan: "Advanced",
@@ -26,7 +26,7 @@ const Pricing = () => {
         { desc: "List Building And Cleaning", status: true },
         { desc: "Collected Data Reports", status: false },
         { desc: "Planning And Evaluation", status: false },
-      ]
+      ],
     },
     {
       plan: "Complete",
@@ -38,7 +38,7 @@ const Pricing = () => {
         { desc: "List Building And Cleaning", status: true },
         { desc: "Collected Data Reports", status: true },
         { desc: "Planning And Evaluation", status: true },
-      ]
+      ],
     },
   ];
 

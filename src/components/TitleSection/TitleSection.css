@@ -1,19 +1,19 @@
 .section {
-    max-width: 100%;
-    max-width: 34rem;
-    text-align: center;
-    margin: 30px auto;
-    padding: 10px;
+  max-width: 100%;
+  max-width: 34rem;
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px;
 }
 
 .section p {
-    font-size: 0.8em;
-    color: #d8679e;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 0.8em;
+  color: #d8679e;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .section h3 {
-    margin-top: -7px;
-    font-size: 2em;
+  margin-top: -7px;
+  font-size: 2em;
 }

@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import MobileMenu from "./MobileMenu/MobileMenu";
-import Hamburger from 'hamburger-react';
+import Hamburger from "hamburger-react";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -9,31 +9,37 @@ const Navbar = () => {
   const handleToggle = () => {
     setIsOpen(!isOpen);
     const body = document.body;
-    body.style.overflowY = (!isOpen) ? "hidden" : "scroll";
-  }
+    body.style.overflowY = !isOpen ? "hidden" : "scroll";
+  };
 
   return (
     <>
       <nav>
         <div className="nav-container">
-            <h1>Logo</h1>
-            <div className="nav-links">
-                <ul className="nav-items">
-                    <li className="nav-item"><a href="">Home</a></li>
-                    <li className="nav-item"><a href="">Features</a></li>
-                    <li className="nav-item"><a href="">Details</a></li>
-                    <li className="nav-item"><a href="">Princing</a></li>
-                </ul>
-                <a className="nav-login">Log In</a>
-            </div>
-            <Hamburger toggled={isOpen} toggle={handleToggle} />
+          <h1>Logo</h1>
+          <div className="nav-links">
+            <ul className="nav-items">
+              <li className="nav-item">
+                <a href="">Home</a>
+              </li>
+              <li className="nav-item">
+                <a href="">Features</a>
+              </li>
+              <li className="nav-item">
+                <a href="">Details</a>
+              </li>
+              <li className="nav-item">
+                <a href="">Princing</a>
+              </li>
+            </ul>
+            <a className="nav-login">Log In</a>
+          </div>
+          <Hamburger toggled={isOpen} toggle={handleToggle} />
         </div>
       </nav>
-      {
-        isOpen && <MobileMenu/>
-      }
+      {isOpen && <MobileMenu />}
     </>
-  )
-}
+  );
+};
 
 export default Navbar;

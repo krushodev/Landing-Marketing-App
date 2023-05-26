@@ -22,7 +22,7 @@ const Home = () => {
       <Pricing />
       <Testimonials />
       <Form />
-      <Social/>
+      <Social />
       <Footer />
     </>
   );

@@ -1,85 +1,85 @@
 .header-container {
-    background-color: #415681;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    padding: 55px 10px;
+  background-color: #415681;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 55px 10px;
 }
 
 .header-content {
-    padding: 10px;
-    text-align: center;
-    max-width: 30rem;
+  padding: 10px;
+  text-align: center;
+  max-width: 30rem;
 }
 
 .header-content h2 {
-    font-size: 2.6em;
-    line-height: 1.2;
-    margin-bottom: -2px;
+  font-size: 2.6em;
+  line-height: 1.2;
+  margin-bottom: -2px;
 }
 
 .header-content p {
-    font-size: 1.1em;
-    line-height: 1.4;
-    margin-bottom: 30px;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin-bottom: 30px;
 }
 
 .header-content button {
-    border: none;
-    outline: 2px solid white;
-    background-color: white;
-    color: #415681;
-    padding: 18px 40px;
-    border-radius: 40px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 20px;
-    transition: all 0.25s;
+  border: none;
+  outline: 2px solid white;
+  background-color: white;
+  color: #415681;
+  padding: 18px 40px;
+  border-radius: 40px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: all 0.25s;
 }
 
 .header-content button:hover {
-    background-color: #415681;
-    color: white;
+  background-color: #415681;
+  color: white;
 }
 
 .header-container img {
-    width: 100%;
-    max-width: 30rem;
+  width: 100%;
+  max-width: 30rem;
 }
 
 @media screen and (min-width: 768px) {
-    .header-content h2 {
-        font-size: 4em;
-    }
+  .header-content h2 {
+    font-size: 4em;
+  }
 
-    .header-container img {
-        max-width: 40rem;
-    }
+  .header-container img {
+    max-width: 40rem;
+  }
 }
 
 @media screen and (min-width: 1366px) {
-    .header-container {
-        flex-direction: row;
-        padding-bottom: 0;
-    }
+  .header-container {
+    flex-direction: row;
+    padding-bottom: 0;
+  }
 
-    .header-wave {
-        margin-bottom: -3em;
-    }
+  .header-wave {
+    margin-bottom: -3em;
+  }
 
-    .header-content {
-        text-align: left;
-    }
+  .header-content {
+    text-align: left;
+  }
 
-    .header-content h2 {
-        font-size: 3.4em;
-    }
+  .header-content h2 {
+    font-size: 3.4em;
+  }
 
-    .header-content p {
-        font-size: 1.3em;
-    }
+  .header-content p {
+    font-size: 1.3em;
+  }
 }

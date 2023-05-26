@@ -1,24 +1,24 @@
 .pricing-container {
-    padding: 0 0 70px;
+  padding: 0 0 70px;
 }
 
 .pricing-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -5px;
 }
 
 @media screen and (min-width: 1024px) {
-    .pricing-cards {
-        flex-direction: row;
-    }
+  .pricing-cards {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .pricing-cards {
-        gap: 100px;
-    }
+  .pricing-cards {
+    gap: 100px;
+  }
 }

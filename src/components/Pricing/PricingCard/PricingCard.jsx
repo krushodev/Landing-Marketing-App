@@ -14,7 +14,7 @@ const PricingCard = ({ content }) => {
       <div className="pricing-feat-container">
         {content.features.map((item, index) => (
           <p key={index}>
-            <span className={`${item.status && "active"}`}>{item.status ? <FaCheck/> : <FaTimes/> }</span>
+            <span className={`${item.status && "active"}`}>{item.status ? <FaCheck /> : <FaTimes />}</span>
             {item.desc}
           </p>
         ))}

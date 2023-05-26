@@ -1,36 +1,36 @@
 .social-container {
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: -50px 0 50px;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: -50px 0 50px;
 }
 
 .social-item {
-    background-color: #415681;
-    padding: 6px 10px 0px;
-    font-size: 1.8em;;
-    border-radius: 50%;
-    font-size: 1.8em;
-    color: white;
-    cursor: pointer;
-    transition: all 0.25s;
+  background-color: #415681;
+  padding: 6px 10px 0px;
+  font-size: 1.8em;
+  border-radius: 50%;
+  font-size: 1.8em;
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s;
 }
 
 .social-item:hover {
-    background-color: white;
-    color: #415681;
+  background-color: white;
+  color: #415681;
 }
 
 @media screen and (min-width: 768px) {
-    .social-container {
-        gap: 20px;
-    }
+  .social-container {
+    gap: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .social-container {
-        gap: 30px;
-    }
+  .social-container {
+    gap: 30px;
+  }
 }
