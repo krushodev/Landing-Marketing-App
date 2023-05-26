@@ -1,24 +1,26 @@
 import "./Description.css";
 import TitleSection from "../TitleSection/TitleSection";
-import Img from "../../assets/desc/desc-1.png";
+import descImg1 from "../../assets/desc/desc-1.png";
+import descImg2 from "../../assets/desc/desc-2.png";
+import descImg3 from "../../assets/desc/desc-3.png";
 
 const data = [{
     id: 1,
-    img: Img,
+    img: descImg1,
     title: "List Builder",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    desc: "It's very easy to start creating email lists for your marketing actions. Just create your Tivo account"
 },
 {
     id: 2,
-    img: Img,
+    img: descImg2,
     title: "Campaign Tracker",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    desc: "Campaigns is a feature we've developed since the beginning because it's at the core of Tivo's functionalities"
 },
 {
     id: 3,
-    img: Img,
+    img: descImg3,
     title: "Analytics Tool",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    desc: "Tivo collects customer data in order to help you analyse different situations and take required action"
 }];
 
 const Description = () => {
