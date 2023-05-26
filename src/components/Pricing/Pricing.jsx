@@ -43,7 +43,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div onScroll={handleScroll} className="pricing-container container" id="pricing">
+    <div className="pricing-container container" id="pricing">
       <TitleSection title="Pricing Options Table" section="Pricing" />
       <div className="pricing-cards">
         {data.map((item, index) => (
