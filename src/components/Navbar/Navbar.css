@@ -17,6 +17,10 @@ nav {
   margin: 0 auto;
 }
 
+.nav-title a {
+  text-decoration: none;
+}
+
 .nav-links {
   display: none;
   justify-content: flex-end;
